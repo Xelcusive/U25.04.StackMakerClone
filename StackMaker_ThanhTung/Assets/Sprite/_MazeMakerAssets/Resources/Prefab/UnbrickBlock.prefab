@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3848001565891061518}
   - component: {fileID: 4947142804167555952}
   - component: {fileID: 6099085665209446036}
-  - component: {fileID: 6620322239762841335}
+  - component: {fileID: 6998424184335253785}
   m_Layer: 0
-  m_Name: UnbrickBlock
+  m_Name: UnBrickBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6620322239762841335
+--- !u!114 &6998424184335253785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
