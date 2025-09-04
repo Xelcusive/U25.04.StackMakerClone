@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dashpickup
   - normal
+  - UnBrickBlock
   layers:
   - Default
   - TransparentFX
