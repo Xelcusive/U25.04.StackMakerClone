@@ -29,12 +29,12 @@ public class PlayerBrick : MonoBehaviour
             Transform lastBrick = brickHolder.GetChild(brickHolder.childCount - 1);
             Destroy(lastBrick.gameObject);
 
-            // OPTION 1: Spawn gạch prefab nhô lên block trắng
+            // Spawn gạch prefab nhô lên block trắng
             if (blockTransform == null)
             {
                 Instantiate(brickPrefab, pos + Vector3.up * 0.1f, Quaternion.identity);
             }
-            // OPTION 2: Đổi block trắng thành block gạch
+            // Đổi block trắng thành block gạch
             else
             {
                 MeshRenderer rend = blockTransform.GetComponent<MeshRenderer>();
@@ -49,6 +49,7 @@ public class PlayerBrick : MonoBehaviour
         else
         {
             Debug.Log("Hết gạch! Không thể đặt.");
+
             return false;
         }
     }
