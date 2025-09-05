@@ -13,13 +13,13 @@ public class PlayerBrick : MonoBehaviour
     {
         brickCount++;
 
-        // Tạo viên gạch và gắn vào BrickHolder
+        // Tạo viên gạch và gắn vào BrickHolder (cõng trên lưng)
         GameObject newBrick = Instantiate(brickPrefab, brickHolder);
         newBrick.transform.localPosition = new Vector3(0, brickCount * 0.2f, 0); // xếp chồng
     }
 
     // Đặt gạch xuống đường
-    public bool RemoveBrick(Vector3 pos)
+    public bool RemoveBrick(Vector3 pos, Transform blockTransform = null)
     {
         if (brickCount > 0)
         {
@@ -29,8 +29,20 @@ public class PlayerBrick : MonoBehaviour
             Transform lastBrick = brickHolder.GetChild(brickHolder.childCount - 1);
             Destroy(lastBrick.gameObject);
 
-            // Đặt viên gạch xuống vị trí đường (pos)
-            Instantiate(brickPrefab, pos, Quaternion.identity);
+            // OPTION 1: Spawn gạch prefab nhô lên block trắng
+            if (blockTransform == null)
+            {
+                Instantiate(brickPrefab, pos + Vector3.up * 0.1f, Quaternion.identity);
+            }
+            // OPTION 2: Đổi block trắng thành block gạch
+            else
+            {
+                MeshRenderer rend = blockTransform.GetComponent<MeshRenderer>();
+                if (rend != null)
+                {
+                    rend.material.color = Color.red; // đổi màu block trắng thành đỏ
+                }
+            }
 
             return true;
         }
@@ -41,6 +53,7 @@ public class PlayerBrick : MonoBehaviour
         }
     }
 
+    // Xóa hết gạch khi reset
     public void ClearBrick()
     {
         brickCount = 0;

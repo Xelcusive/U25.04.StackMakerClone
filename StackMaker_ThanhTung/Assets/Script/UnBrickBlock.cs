@@ -4,28 +4,26 @@ using UnityEngine;
 
 public class UnBrickBlock : MonoBehaviour
 {
-    
-        private bool isFilled = false;
+    private bool isFilled = false;
 
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (isFilled) return;
+
+        if (other.CompareTag("Player"))
         {
-            if (isFilled) return;
+            PlayerBrick playerBrick = other.GetComponent<PlayerBrick>();
 
-            if (other.CompareTag("Player"))
+            // Nếu Player còn gạch thì đặt xuống
+            if (playerBrick.RemoveBrick(transform.position, transform))
             {
-                PlayerBrick playerBrick = other.GetComponent<PlayerBrick>();
-
-                // Nếu Player còn gạch thì đặt xuống
-                if (playerBrick.RemoveBrick(transform.position))
-                {
-                    isFilled = true;
-                }
-                else
-                {
-                    // Hết gạch thì Player không đi qua được
-                    Debug.Log("Player out of block, player can not move right now.");
-                }
+                isFilled = true;
+                Debug.Log("Đã đặt gạch tại: " + transform.position);
+            }
+            else
+            {
+                Debug.Log("Player hết gạch, không đi qua được!");
             }
         }
-    
+    }
 }

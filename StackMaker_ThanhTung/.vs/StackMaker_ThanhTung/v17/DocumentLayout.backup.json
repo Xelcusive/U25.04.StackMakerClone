@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmakerclone\\stackmaker_thanhtung\\assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmakerclone\\stackmaker_thanhtung\\assets\\script\\playerbrick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerbrick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\assets\\script\\unbrickblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\assets\\script\\playerbrick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerbrick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmakerclone\\stackmaker_thanhtung\\assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CameraFollow.cs",
@@ -51,32 +51,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerBrick.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\PlayerBrick.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerBrick.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\PlayerBrick.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerBrick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T13:22:05.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Brick.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Brick.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\Brick.cs",
               "RelativeToolTip": "Assets\\Script\\Brick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:14:18.4Z"
+              "WhenOpened": "2025-08-20T13:14:18.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UnBrickBlock.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\UnBrickBlock.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UnBrickBlock.cs",
@@ -84,23 +85,25 @@
               "RelativeToolTip": "Assets\\Script\\UnBrickBlock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T00:39:41.955Z"
+              "WhenOpened": "2025-08-20T00:39:41.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T08:03:30.947Z"
+              "WhenOpened": "2025-08-18T08:03:30.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMakerClone\\StackMaker_ThanhTung\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
@@ -108,7 +111,8 @@
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T13:22:15.096Z"
+              "WhenOpened": "2025-08-20T13:22:15.096Z",
+              "EditorCaption": ""
             }
           ]
         }
