@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    PlayerBrick playerBrick;
     public float moveSpeed = 5f; // tốc độ di chuyển
     private Vector3 moveDir;     // hướng di chuyển
 
@@ -37,11 +36,6 @@ public class PlayerController : MonoBehaviour
                 direct = swipe.y > 0 ? Direct.Forward : Direct.Back;
             }
         }
-        //Nếu hết gạch nhân vật không di chuyển 
-        //if(playerBrick.brickCount==0)
-        //{
-        //    moveDir= Vector3.zero;
-        //}    
 
         // Di chuyển liên tục theo hướng đã chọn
         switch (direct)
@@ -54,14 +48,5 @@ public class PlayerController : MonoBehaviour
         }
 
         transform.Translate(moveDir * moveSpeed * Time.deltaTime);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("FinishBox"))
-        {
-            moveDir=Vector3.zero;
-        }    
-        
     }
 }

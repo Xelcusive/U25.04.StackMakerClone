@@ -7,7 +7,6 @@ TagManager:
   - Dashpickup
   - normal
   - UnBrickBlock
-  - FinishBox
   layers:
   - Default
   - TransparentFX
